@@ -342,12 +342,12 @@
         <div class="hero min-h-screen" style="background-image: url(./images/team.png);">
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-center text-neutral-content">
-            <div class="max-w-md">
+            <div class="max-w-6xl">
               <h1 class="mb-5 text-4xl font-bold">Meet the team section</h1>
               <p class="mb-5 text-xs">Contrary to popular belief, is not simply random text. It has roots in a piece of
-                classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
               <!-- img section -->
-              <div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-48 md:pt-20 pl-28 md:pl-0">
+              <div class="grid md:grid-cols-4 gap-4 md:gap-20 pl-28 md:pl-0">
                 <div class="w-32">
                   <img class="" src="./images/member1.png" alt="">
                   <h3 class="pt-2">Awlad Hossain</h3>
@@ -552,7 +552,7 @@
   </main>
   <footer class="mt-10">
     <section>
-      <div class="bg-black py-10">
+      <div class="bg-black py-10 hidden md:block">
         <div class="flex justify-center items-center gap-2 text-white">
           <img src="./images/logo.png" alt="">
           <p>Fruit Burst</p>
@@ -561,6 +561,7 @@
           <p>Home</p>
           <p>About Us</p>
           <p>Shop</p>
+          <p>All Fruits</p>
           <p>Support</p>
           <p>My Account</p>
         </div>
@@ -571,6 +572,31 @@
         </div>
       </div>
     </section>
+    <!-- mobile footer -->
+    <section>
+      <div class="bg-black py-10 md:hidden">
+        <div class="flex justify-center items-center gap-2 text-white">
+          <img src="./images/logo.png" alt="">
+          <p>Fruit Burst</p>
+        </div>
+        <div class="flex justify-center gap-6 mt-2 text-xs text-white">
+          <p>Home</p>
+          <p>About Us</p>
+          <p>Shop</p>
+          <p>All Fruits</p>
+        </div>
+        <div class="flex justify-center gap-6 mt-2 text-xs text-white">
+          <p>Support</p>
+          <p>My Account</p>
+        </div>
+        <div class="flex justify-center gap-4 mt-4">
+          <img src="./images/tw.png" alt="">
+          <img src="./images/link.png" alt="">
+          <img src="./images/ig.png" alt="">
+        </div>
+      </div>
+    </section>
+
   </footer>
 </body>
 
